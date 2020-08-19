@@ -1,0 +1,11 @@
+footer {
+    background-color: #4B988A;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    color: white;
+}

@@ -1,0 +1,11 @@
+sideber {
+    background: #7AA3DA;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+}
+
+.sidebox {
+    height: 100%;
+    border: 1px solid red;
+}

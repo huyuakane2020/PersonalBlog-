@@ -1,0 +1,49 @@
+@import url("header.css");
+@import url(content.css);
+@import url(footer.css);
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 90px auto 50px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+}
+
+header {
+    grid-area: hd;
+}
+
+content {
+    grid-area: main;
+}
+
+footer {
+    grid-area: ft;
+}
+
+@media (min-width: 200px) and (min-width:600px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 90px auto 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "main main main main mian mian mian mian"
+            "ft ft ft ft ft ft ft ft";
+    }
+
+    @media (min-width:601px) {
+        .container {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 90px auto 50px;
+            grid-template-areas:
+                "hd hd hd hd hd hd hd hd"
+                "main main main main main main main main"
+                "ft ft ft ft ft ft ft ft";
+        }
+    }
+}

@@ -1,0 +1,19 @@
+header {
+    background-color: #F0F8FF;
+}
+
+.logo {
+    font-size: 200%;
+    color: yellowgreen;
+    float: left;
+    line-height: 90px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+header li {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    line-height: 55px;
+}
